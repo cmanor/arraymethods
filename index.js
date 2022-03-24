@@ -17,11 +17,14 @@ console.log(users.filter(function(users){
     return users.isPremiumMember === true
 }))
 
-const thisclassisshit = users.map(Deeznuts => Deeznuts.lastName);
-console.log(thisclassisshit);
+const lastoname = users.map(Deeznuts => Deeznuts.lastName);
+console.log(lastoname);
 
 const userOlderThan40 = users.filter(user => user.logins > 10);
-console.log(userOlderThan40);
+let fdsa = userOlderThan40.map(sack => sack.firstName + sack.lastName);
+console.log(fdsa);
 
-const sum = users.reduce((thisclass, blows) => thisclass + blows); 
+let nuts = users.map(balls => balls.logins);
+
+const sum = nuts.reduce((idk, things) => idk + things); 
 console.log(sum);
