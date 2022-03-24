@@ -13,3 +13,15 @@ console.log(users.filter(function(users){
     return users.firstName === "Jose"
 }))
 
+console.log(users.filter(function(users){
+    return users.isPremiumMember === true
+}))
+
+const thisclassisshit = users.map(Deeznuts => Deeznuts.lastName);
+console.log(thisclassisshit);
+
+const userOlderThan40 = users.filter(user => user.logins > 10);
+console.log(userOlderThan40);
+
+const sum = users.reduce((thisclass, blows) => thisclass + blows); 
+console.log(sum);
